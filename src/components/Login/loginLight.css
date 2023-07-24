@@ -1,0 +1,95 @@
+.login {
+  display: flex;
+  flex-direction: column;
+}
+.logo {
+  width: 100%;
+  @media only screen and (max-width:768px) {
+    text-align: center;
+  }
+}
+.logo > img {
+  width: 174px;
+  height: 40px;
+ @media only screen and (max-width: 768px) {
+    width: 200px;
+  }
+}
+
+.light-form-heading {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  margin-top: 60px;
+  margin-bottom: 70px;
+  color: black;
+  @media only screen and (max-width:768px) {
+    text-align: center;
+    margin: 25px 0px;
+  }
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.light-input {
+  display: flex;
+  align-items: center;
+  border: 1px solid #acacac;
+  border-radius: 4px;
+  
+
+}
+
+.light-input >input{
+  border: none;
+  outline: none;
+  background-color: transparent;
+  width: 100%;
+  padding: 14px 16px;
+
+}
+.light-input > label {
+  text-align: right;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.checkANDforgot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.checkbox > input {
+  margin-right: 8px;
+
+}
+.forgotPassword {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #409f47;
+}
+.remember-light{
+  color: black;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.light-button{
+  border: none;
+  background-color: #66B127;
+  border-radius: 4px;
+  padding: 19px 0;
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 4%;
+  cursor: pointer;
+}
